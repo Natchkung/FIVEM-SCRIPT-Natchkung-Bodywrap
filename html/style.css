@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Mitr&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    /* display: none; */
+    margin: auto;
+    text-align: center;
+    width: 400px;
+    height: 150px;
+    background-color: rgba(0, 0, 0, 0.685);
+    border-radius: 10px;
+    margin-top: 15%;
+    font-family: 'Mitr', sans-serif;
+    overflow: hidden;
+}
+
+.ctn2 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.header {
+    position: relative;
+    background: rgb(143, 0, 0);
+    background: linear-gradient(90deg, rgb(83, 0, 0) 0%, rgba(196, 0, 0, 1) 35%, rgba(255, 0, 29, 1) 51%, rgba(202, 0, 3, 1) 83%, rgb(83, 0, 0) 100%);
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    color: #ffffff;
+    font-size: 2vh;
+}
+
+.textheader {
+    position: absolute;
+    left: 20%;
+    top: 20%;
+}
+
+.content {
+    position: relative;
+    width: 100%;
+    height: 100px;
+}
+
+.unagree {
+    position: absolute;
+    top: 10%;
+    left: 5%;
+}
+
+.btn-unagree {
+    display: inline-block;
+    margin: 0 auto;
+    margin-top: 10px;
+    height: 40px;
+    width: 83px;
+    border: none;
+    background: rgb(143, 0, 0);
+    background: linear-gradient(90deg, rgb(83, 0, 0) 0%, rgba(196, 0, 0, 1) 35%, rgba(255, 0, 29, 1) 51%, rgba(202, 0, 3, 1) 83%, rgb(83, 0, 0) 100%);
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    transition: 0.2s ease-in-out all;
+}
+
+.btn-unagree:hover {
+    color: black;
+}
+
+.timer {
+    position: absolute;
+    background-color: #d9d9d9;
+    background-image: linear-gradient(315deg, #b9b9b9 0%, #dddddd 74%);
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 20px;
+    left: 31.5%;
+    height: 40px;
+    width: 150px;
+}
+
+.texttimer {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+#timer {
+    color: #ff0000;
+}
+
+.agree {
+    position: absolute;
+    top: 10%;
+    right: 5%;
+}
+
+.btn-agree {
+    display: inline-block;
+    margin: 0 auto;
+    margin-top: 10px;
+    height: 40px;
+    width: 83px;
+    border: none;
+    background: rgb(0, 143, 12);
+    background: linear-gradient(90deg, rgb(0, 66, 6) 0%, rgba(2, 212, 47, 1) 35%, rgba(0, 255, 42, 1) 51%, rgba(0, 202, 61, 1) 83%, rgb(0, 66, 6) 100%);
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    transition: 0.2s ease-in-out all;
+}
+
+.btn-agree:hover {
+    color: black;
+}
