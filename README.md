@@ -1,3 +1,3 @@
 # FIVEM-SCRIPT-Natchkung-Bodywrap
 
-/remakestory [ID] เพื่อ Remakestory ใหม่ในกรณีที่หลุดออกจากเกม
+/remakestory [ID] [TIME] เพื่อ Remakestory ใหม่ในกรณีที่หลุดออกจากเกม
